@@ -1,3 +1,6 @@
 h1, li{
     color : blue;
 }
+body {
+    background:  url("images/pizza.jpg")no-repeat;
+}
