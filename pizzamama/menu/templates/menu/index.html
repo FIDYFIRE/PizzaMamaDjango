@@ -11,7 +11,7 @@
     <h1>Les pizzas</h1>
     <ul>
         {% for pizza in pizzas %}
-            <li>{{pizza.nom}}</li>
+            <li>{{pizza.nom}} {{pizza.prix}}€</li>
         {% endfor %}
     </ul>
 </body>
