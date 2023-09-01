@@ -10,10 +10,9 @@
 <body>
     <h1>Les pizzas</h1>
     <ul>
-        <li>Pizza 1</li>
-        <li>Pizza 2</li>
-        <li>Pizza 3</li>
-        <li>Pizza 4</li>
+        {% for pizza in pizzas %}
+            <li>{{pizza.nom}}</li>
+        {% endfor %}
     </ul>
 </body>
 </html>
